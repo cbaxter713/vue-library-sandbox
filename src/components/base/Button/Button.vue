@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4rem;
+  height: 3rem;
   padding: 0 2rem;
   border: 2px solid maroon;
   color: white;
@@ -37,7 +37,6 @@
   &-primary {
     background-color: $color-primary;
   }
-
   &-secondary {
     background-color: black;
   }
