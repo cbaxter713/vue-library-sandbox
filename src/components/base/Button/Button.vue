@@ -26,7 +26,6 @@
   justify-content: center;
   height: 4rem;
   padding: 0 2rem;
-  background: teal;
   border: 2px solid maroon;
   color: white;
   cursor: pointer;
@@ -36,7 +35,7 @@
   }
 
   &-primary {
-    background-color: pink;
+    background-color: $color-primary;
   }
 
   &-secondary {
