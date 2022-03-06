@@ -53,7 +53,6 @@ export default {
 
 <style scoped lang="scss">
 button {
-  color: yellow;
-  background: red;
+  background: $color-primary;
 }
 </style>
