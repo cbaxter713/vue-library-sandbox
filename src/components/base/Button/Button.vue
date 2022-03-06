@@ -18,7 +18,7 @@
   </button>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .btn {
   appearance: none;
   display: flex;
@@ -29,5 +29,25 @@
   border: 2px solid maroon;
   color: white;
   cursor: pointer;
+
+  &-primary {
+    background-color: $color-primary;
+  }
+
+  &-secondary {
+    background-color: purple;
+  }
+
+  &-action {
+    background-color: orange;
+  }
+
+  &-size-sm {
+    height: 2rem;
+  }
+
+  &-size-lg {
+    height: 4rem;
+  }
 }
 </style>
