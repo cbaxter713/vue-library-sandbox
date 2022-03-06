@@ -35,7 +35,7 @@
   }
 
   &-secondary {
-    background-color: purple;
+    background-color: $color-secondary;
   }
 
   &-action {
