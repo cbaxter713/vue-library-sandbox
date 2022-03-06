@@ -50,3 +50,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+button {
+  color: yellow;
+  background: red;
+}
+</style>

@@ -18,7 +18,7 @@
   </button>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .btn {
   appearance: none;
   display: flex;
@@ -29,16 +29,5 @@
   border: 2px solid maroon;
   color: white;
   cursor: pointer;
-
-  &:hover {
-    background-color: orange;
-  }
-
-  &-primary {
-    background-color: $color-primary;
-  }
-  &-secondary {
-    background-color: black;
-  }
 }
 </style>
