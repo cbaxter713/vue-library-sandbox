@@ -1,21 +1,22 @@
 <script setup lang="ts">
-  export interface SplitCalloutProps {
-    title: string;
-    copy: string;
-    image: string;
-    rightAligned?: boolean;
-  }
+export interface SplitCalloutProps {
+  title: string;
+  copy: string;
+  image: string;
+  rightAligned?: boolean;
+}
 
-  const props = defineProps<SplitCalloutProps>();
+const props = defineProps<SplitCalloutProps>();
 </script>
 
 <template>
-  <div :class="['split-callout', {'align-right': rightAligned}]">
+  <div :class="['split-callout', { 'align-right': rightAligned }]">
     <div class="content">
-      <h2>{{title}}</h2>
-      <p>{{copy}}</p>
+      <h2>{{ title }}</h2>
+
+      <p>{{ copy }}</p>
     </div>
-    <img :src="image" alt="some text" />
+    <img alt="some text" :src="image" />
   </div>
 </template>
 
@@ -24,9 +25,9 @@
   display: flex;
   gap: 2rem;
   width: 100%;
-  max-width: 700px;  
+  max-width: 700px;
   margin: 0 auto;
-  
+
   &.align-right {
     flex-direction: row-reverse;
   }
