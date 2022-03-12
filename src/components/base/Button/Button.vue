@@ -10,6 +10,19 @@
     size: 'md',
     theme: 'primary'
   })
+
+  // const props = defineProps({
+  //   label: String,
+  //   /**
+  //    * Whether or not it is loading
+  //    */
+  //   loading: Boolean,
+  //   theme: {
+  //     type: String,
+  //     default: 'primary'
+  //   },
+  //   size: String
+  // });
 </script>
 
 <template>
