@@ -6,7 +6,7 @@ export interface SplitCalloutProps {
   rightAligned?: boolean;
 }
 
-const props = defineProps<SplitCalloutProps>();
+defineProps<SplitCalloutProps>();
 </script>
 
 <template>

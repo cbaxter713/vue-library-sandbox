@@ -1,12 +1,12 @@
 <script setup lang="ts">
 export interface ButtonProps {
   label: string;
+  theme?: "primary" | "secondary" | "action";
+  size?: "sm" | "md" | "lg";
   loading?: boolean;
-  theme: "primary" | "secondary" | "action";
-  size: "sm" | "md" | "lg";
 }
 
-const props = withDefaults(defineProps<ButtonProps>(), {
+withDefaults(defineProps<ButtonProps>(), {
   size: "md",
   theme: "primary",
 });
