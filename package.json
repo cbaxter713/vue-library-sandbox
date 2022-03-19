@@ -1,7 +1,7 @@
 {
   "name": "@cbaxter713/vue-library-sandbox",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.7.0",
   "files": [
     "dist"
   ],
