@@ -1,11 +1,15 @@
 import { mount } from "@vue/test-utils";
 import Button from "./Button.vue";
 
-describe("Button", () => {
-  it("Should display the passed in label prop", () => {
-    const label = "Button Test";
-    const wrapper = mount(Button, { props: { label } });
+const defaultLabel = "Button Test";
+const defaultWrapper = mount(Button, { props: { label: defaultLabel } });
 
-    expect(wrapper.find("button").text()).toEqual(label);
+describe("Button", () => {
+  it("Should match the default snapshot", () => {
+    expect(defaultWrapper.element).toMatchSnapshot();
+  });
+
+  it("Should display the passed in label prop", () => {
+    expect(defaultWrapper.find("button").text()).toEqual(defaultLabel);
   });
 });

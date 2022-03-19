@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitCallout Should match the default snapshot 1`] = `
+<div
+  class="split-callout"
+>
+  <div
+    class="content"
+  >
+    <h2>
+      Default title
+    </h2>
+    <p>
+      Lorem Ipsum and some other gibberish here
+    </p>
+  </div>
+  <img
+    alt="some text"
+    src="https://via.placeholder.com/150"
+  />
+</div>
+`;

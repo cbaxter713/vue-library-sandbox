@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Should match the default snapshot 1`] = `
+<button
+  class="btn btn-primary btn-size-md"
+>
+  Button Test
+</button>
+`;

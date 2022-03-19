@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   parserOptions: {
     parser: "@typescript-eslint/parser",
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
   },
   env: {
     es6: true,
@@ -19,7 +19,6 @@ module.exports = {
   ],
   plugins: ["jest"],
   rules: {
-    // override/add rules settings here, such as:
-    // 'vue/no-unused-vars': 'error'
+    "vue/script-setup-uses-vars": "error",
   },
 };
