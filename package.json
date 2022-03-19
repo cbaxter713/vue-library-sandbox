@@ -1,7 +1,6 @@
 {
-  "name": "@cbaxter713/vue-library-sandbox",
-  "private": true,
-  "version": "1.7.0",
+  "name": "@cbaxterpackages/vue-library-sandbox",
+  "version": "0.0.0",
   "files": [
     "dist"
   ],
@@ -68,5 +67,23 @@
     "vue-template-compiler": "^2.6.14",
     "vue-tsc": "^0.32.1"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "description": "This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbaxter713/vue-library-sandbox.git"
+  },
+  "keywords": [
+    "ui",
+    "component",
+    "library",
+    "vue",
+    "typescript"
+  ],
+  "author": "Colin Baxter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbaxter713/vue-library-sandbox/issues"
+  },
+  "homepage": "https://github.com/cbaxter713/vue-library-sandbox#readme"
 }
