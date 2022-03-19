@@ -1,13 +1,29 @@
 {
-  "name": "vue-library-sandbox",
+  "name": "@cbaxter713/vue-library-sandbox",
   "private": true,
   "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-component-lib.umd.js",
+  "module": "./dist/my-component-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-component-lib.es.js",
+      "require": "./dist/my-component-lib.umd.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "publish": "npm publish --access public",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write",
     "test": "jest src"
