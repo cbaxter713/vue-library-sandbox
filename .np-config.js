@@ -1,4 +1,1 @@
-module.exports = {
-  yarn: false,
-  contents: 'dist'
-};
+module.exports = {};

@@ -23,7 +23,7 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "publish": "npm publish --access public",
+    "release": "np",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write",
     "test": "jest src"
@@ -53,6 +53,7 @@
     "eslint-plugin-vue": "^8.5.0",
     "jest": "^27.5.1",
     "node-sass": "^7.0.1",
+    "np": "*",
     "path": "^0.12.7",
     "prettier": "^2.5.1",
     "sass": "^1.49.9",
