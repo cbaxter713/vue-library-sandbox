@@ -2,20 +2,21 @@
   "name": "@cbaxterpackages/vue-library-sandbox",
   "version": "0.1.2",
   "files": [
-    "dist"
+    "dist/"
   ],
   "main": "./dist/my-component-lib.umd.js",
   "module": "./dist/my-component-lib.es.js",
+  "style": "./dist/style.css",
   "exports": {
     ".": {
       "import": "./dist/my-component-lib.es.js",
-      "require": "./dist/my-component-lib.umd.js"
+      "require": "./dist/my-component-lib.umd.js",
+      "style": "./dist/style.css"
     }
   },
   "publishConfig": {
     "access": "public"
   },
-  "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
