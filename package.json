@@ -1,6 +1,6 @@
 {
   "name": "@cbaxterpackages/vue-library-sandbox",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "files": [
     "dist/"
   ],
@@ -15,6 +15,7 @@
     }
   },
   "publishConfig": {
+    "@cbaxterpackages:registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "scripts": {
@@ -29,7 +30,7 @@
     "test": "jest src"
   },
   "dependencies": {
-    "@cbaxterpackages/vue-library-sandbox": "^0.1.0",
+    "@cbaxterpackages/vue-library-sandbox": "^0.1.3",
     "vue": "^3.2.25"
   },
   "devDependencies": {
